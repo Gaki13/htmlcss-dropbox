@@ -13,3 +13,56 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------
+   BUTTOMS
+-----------*/
+.btn-header{
+    padding: 8px 15px;
+    background-color: #0061ff;
+    color: white;
+}
+
+
+/*----------
+   HEADER
+-----------*/
+header{
+    width: 100%;
+    position: fixed;
+}
+
+.container-nav{
+    padding: 30px 20px;
+}
+
+.container-nav ul{
+    display: inline-block;
+    width: 47%
+}
+
+.container-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+ .main-nav-right li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.main-nav-right{
+    text-align: right;
+}
+
+.main-nav-left li{
+    display: inline-block;
+    margin: 0px 20px;
+} 
+
