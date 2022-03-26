@@ -21,6 +21,19 @@ body{
 }
 
 /*----------
+   DEBUG
+-----------*/
+
+ .debug-col{
+    width: calc(100% / 3 - 60px);
+    background-color: blue;
+    min-height: 1070px;
+    float: left;
+} 
+
+
+
+/*----------
    BUTTOMS
 -----------*/
 .btn{
@@ -42,9 +55,12 @@ body{
 h1{
     font-size: 3vw;
     line-height: 4vw;
-    padding-top: 100px;
+    padding-top: 190px;
 }
-   
+ 
+h2{
+    font-size: 1.5vw;
+}
 
 /*----------
    HEADER
@@ -52,6 +68,8 @@ h1{
 header{
     width: 100%;
     background-color: white;
+    position: fixed;
+    z-index: 10;
 }
 
 .container-nav{
@@ -123,4 +141,32 @@ header{
 .col-hero-left i{
     font-size: 40px;
     margin-top: 50px;
+}
+
+/*sezione choise of plan*/
+.choise-of-plan{
+    margin-top: 215px;
+}
+
+.container-standard{
+    width: 1080px;
+    margin: auto;
+}
+
+.radio{
+    display: inline-block;
+    margin: 75px 15px 45px 0px;
+}
+
+
+
+.col-team-standard{
+    margin: 0px 60px;
+}
+
+.col-team-enterprise{
+    width: 100%;
+    margin-top: 50px;
+    min-height: 230px;
+    background-color: greenyellow;
 }
