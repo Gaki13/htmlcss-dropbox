@@ -23,23 +23,40 @@ body{
 /*----------
    BUTTOMS
 -----------*/
-.btn-header{
-    padding: 8px 15px;
+.btn{
+    padding: 10px 20px;
     background-color: #0061ff;
     color: white;
+    border: none;
 }
 
+.btn.btn-hero{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/*----------
+   TYPO
+-----------*/
+h1{
+    font-size: 3vw;
+    line-height: 4vw;
+    padding-top: 100px;
+}
+   
 
 /*----------
    HEADER
 -----------*/
 header{
     width: 100%;
-    position: fixed;
+    background-color: white;
 }
 
 .container-nav{
     padding: 30px 20px;
+
 }
 
 .container-nav ul{
@@ -66,3 +83,43 @@ header{
     margin: 0px 20px;
 } 
 
+/*----------
+   MAIN
+-----------*/
+
+/*sezione hero*/
+
+.hero{
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+.container-hero{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.col-hero-left{
+    width: 31%;
+    float: left;
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 80px;
+    
+}
+
+.col-hero-right{
+    width: 67%;
+    float: left;
+}
+
+.hero-img{
+    width: 100%;
+    position: relative;
+    top: 80px;
+}
+
+.col-hero-left i{
+    font-size: 40px;
+    margin-top: 50px;
+}
