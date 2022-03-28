@@ -49,6 +49,14 @@ body{
     font-size: 18px;
 }
 
+.btn-col{
+    width: calc(100% - 60px);
+    margin-left: 30px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+
+}
+
 /*----------
    TYPO
 -----------*/
@@ -62,6 +70,50 @@ h2{
     font-size: 1.5vw;
 }
 
+h3{
+    font-size: 1vw;
+    font-weight: bolder;
+    padding: 40px 0px 25px 15px;
+}
+
+h4{
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+.price{
+    font-weight: bolder;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.duration{
+    font-size: 15px;
+    color: #828f9a;
+    display: block;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.plan-limits{
+    padding-left: 30px;
+    font-size: 15px;
+    display: block;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.buy-now{
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+a{
+    color: #4088ff;
+}
 /*----------
    HEADER
 -----------*/
@@ -160,9 +212,37 @@ header{
 
 .col-plan{
     width: calc(100% / 3 - 40px);
-    background-color: blue;
-    min-height: 1070px;
+    min-height: 1170px;
+    border: 1px solid #d0d0d3;
     float: left;
+
+}
+
+.col-top{
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.col-plan hr{
+    width: 50px;
+    color: #d0d0d3;
+    margin-left: 30px;
+}
+
+.col-plan ul{
+    list-style: none;
+    padding: 35px 30px 0px 30px;
+}
+
+.col-plan ul li{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.col-plan ul li i{
+    color: #1f74ff;
+    font-weight: bolder;
 }
 
 .col-team-standard{
