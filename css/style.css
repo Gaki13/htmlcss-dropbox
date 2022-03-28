@@ -304,3 +304,27 @@ header{
 .col-patner-right h3{
     padding-left: 0px;
 }
+
+/* sezione operazioni */
+ .operation h2{
+     margin-bottom: 85px;
+ }
+
+ .operation-row-feature{
+     width: calc( 100% / 3 - 50px);
+     float: left;
+     margin-bottom: 135px;
+ }
+
+.feature-middle{
+    margin: 0px 70px;
+}
+
+ .operation-row-feature h3{
+    padding: 10px 0px 30px 0px;
+ }
+
+ .operation-img{
+   width: 100%;
+}
+    
