@@ -20,6 +20,10 @@ body{
     clear: both;
 }
 
+.container-standard{
+    width: 1080px;
+    margin: auto;
+}
 /*----------
    DEBUG
 -----------*/
@@ -63,6 +67,14 @@ body{
     top: 85px;
     width: 305px;
     font-size: 15px;
+}
+
+.btn-patner{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 /*----------
@@ -208,10 +220,7 @@ header{
     margin-top: 215px;
 }
 
-.container-standard{
-    width: 1080px;
-    margin: auto;
-}
+
 
 .radio{
     display: inline-block;
@@ -273,4 +282,25 @@ header{
 .col-team-enterprise span{
     padding-left: 30px;
     font-size: 14px;
+}
+
+/* sezione trova un patner */
+
+.patner{
+    margin-bottom: 120px;
+}
+
+.patner-img{
+    width: 55%;
+    float: left;
+}
+
+.col-patner-right{
+    float: left;
+    width: 45%;
+    padding-left: 50px;
+}
+
+.col-patner-right h3{
+    padding-left: 0px;
 }
