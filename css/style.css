@@ -54,7 +54,15 @@ body{
     margin-left: 30px;
     margin-top: 55px;
     margin-bottom: 35px;
+    font-size: 15px;
+}
 
+.btn-enterprise{
+    position: absolute;
+    right: 30px;
+    top: 85px;
+    width: 305px;
+    font-size: 15px;
 }
 
 /*----------
@@ -73,7 +81,7 @@ h2{
 h3{
     font-size: 1vw;
     font-weight: bolder;
-    padding: 40px 0px 25px 15px;
+    padding: 40px 0px 25px 30px;
 }
 
 h4{
@@ -251,7 +259,18 @@ header{
 
 .col-team-enterprise{
     width: 100%;
-    margin-top: 50px;
-    min-height: 230px;
-    background-color: greenyellow;
+    margin: 50px 0px 150px;
+    min-height: 250px;
+    border: 1px solid #d0d0d3;
+    position: relative;
+}
+
+.col-team-enterprise h4{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.col-team-enterprise span{
+    padding-left: 30px;
+    font-size: 14px;
 }
