@@ -24,12 +24,12 @@ body{
    DEBUG
 -----------*/
 
- .debug-col{
-    width: calc(100% / 3 - 60px);
+ /* .debug-col{
+    width: 320px;
     background-color: blue;
     min-height: 1070px;
     float: left;
-} 
+}   */
 
 
 
@@ -158,7 +158,12 @@ header{
     margin: 75px 15px 45px 0px;
 }
 
-
+.col-single{
+    width: 320px;
+    background-color: blue;
+    min-height: 1070px;
+    float: left;
+}
 
 .col-team-standard{
     margin: 0px 60px;
