@@ -158,8 +158,8 @@ header{
     margin: 75px 15px 45px 0px;
 }
 
-.col-single{
-    width: 320px;
+.col-plan{
+    width: calc(100% / 3 - 40px);
     background-color: blue;
     min-height: 1070px;
     float: left;
