@@ -446,3 +446,21 @@ header{
     color: #61082b;
     position: relative;
 }
+
+/* seziona FAQ */
+
+.FAQ{
+    margin-top: 140px;
+    margin-bottom: 130px;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 90px;
+}
+
+.FAQ h2{
+    margin-bottom: 60px;
+}
+
+.FAQ i{
+   margin-left: 280px;
+}
