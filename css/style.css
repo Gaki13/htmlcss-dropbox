@@ -490,8 +490,20 @@ footer{
     display: inline-block;
     width: 19%;
     padding: 100px 0px;
+    vertical-align: top;
 }
 
 .top-footer ul li{
     margin-bottom: 20px;
+}
+
+.top-footer hr{
+    width: 120px;
+}
+
+.bottom-footer{
+    color: #646464;
+    margin-top: 50px;
+    padding-bottom: 45px;
+    font-size: 14px;
 }
