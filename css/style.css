@@ -111,6 +111,11 @@ h4{
     margin-top: 40px;
 }
 
+h5{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 .price{
     font-weight: bolder;
     padding-left:30px;
@@ -463,4 +468,30 @@ header{
 
 .FAQ i{
    margin-left: 280px;
+}
+
+/*----------
+   FOOTER
+-----------*/
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+.container-footer{
+    width: 1300px;
+    margin: auto;
+    color: white;
+}
+
+.top-footer ul{
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+    padding: 100px 0px;
+}
+
+.top-footer ul li{
+    margin-bottom: 20px;
 }
