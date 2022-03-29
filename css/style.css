@@ -306,25 +306,53 @@ header{
 }
 
 /* sezione operazioni */
- .operation h2{
-     margin-bottom: 85px;
- }
+.operation h2{
+    margin-bottom: 85px;
+}
 
- .operation-row-feature{
-     width: calc( 100% / 3 - 50px);
-     float: left;
-     margin-bottom: 135px;
- }
+.operation-row-feature{
+    width: calc( 100% / 3 - 50px);
+    float: left;
+    margin-bottom: 135px;
+    font-size: 17px;
+}
 
 .feature-middle{
     margin: 0px 70px;
 }
 
- .operation-row-feature h3{
+.operation-row-feature h3{
     padding: 10px 0px 30px 0px;
- }
+}
 
- .operation-img{
+.operation-img{
    width: 100%;
 }
     
+/* sezione teams */
+
+.teams h2{
+    margin-bottom: 45px;
+}
+
+.teams a{
+    padding-bottom: 55px;
+    font-size: 18px;
+}
+
+.container-logo{
+    margin-top: 55px;
+}
+.col-small{
+    float: left;
+    width: 25vw;
+    height: 25vw;
+    background-color: aqua;
+}
+
+.col-large{
+    float: left;
+    width: 49.3vw;
+    height: 25vw;
+    background-color: #f5f5f5;
+}
